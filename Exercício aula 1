@@ -1,0 +1,19 @@
+#include <iostream>
+struct Data {
+  int dia;
+  int mes;
+  int ano;
+
+  void mostrar() {
+    std::cout << dia << "/" << mes << "/" << ano;
+  }
+};
+
+int main() {
+  Data data;
+  std::cin >> data.dia;
+  std::cin >> data.mes;
+  std::cin >> data.ano;
+  data.mostrar();
+  
+}
