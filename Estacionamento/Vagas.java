@@ -25,6 +25,8 @@ public class Vagas{
       if(tempo > 0){
         pagar = pagar + 5;
         tempo = tempo - 60;
+      }else{
+        break;
       }
     }
     ocupado = false;
