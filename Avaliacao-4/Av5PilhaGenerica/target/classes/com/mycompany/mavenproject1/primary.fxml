@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="341.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject1.PrimaryController">
+   <children>
+      <AnchorPane maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0">
+         <children>
+            <TextField fx:id="campoEntrada" alignment="CENTER" layoutX="14.0" layoutY="226.0" maxWidth="80.0" prefHeight="25.0" prefWidth="226.0" promptText="Elemento" />
+            <Button fx:id="botaoEmpilha" alignment="CENTER" layoutX="100.0" layoutY="226.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#lerEntrada" prefHeight="25.0" prefWidth="63.0" text="Empilhar" />
+            <Button fx:id="botaoDesempilha" layoutX="203.0" layoutY="226.0" mnemonicParsing="false" onAction="#botaoDesempilha" text="Desempilhar" />
+            <TextField fx:id="respostaTexto" editable="false" layoutX="34.0" layoutY="261.0" prefHeight="25.0" prefWidth="233.0" />
+            <TextArea fx:id="areaPilha" editable="false" layoutX="50.0" layoutY="14.0" maxHeight="200.0" maxWidth="200.0" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0">
+               <font>
+                  <Font size="16.0" />
+               </font></TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
